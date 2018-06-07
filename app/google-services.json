@@ -63,6 +63,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "762379165325-lv5ijiveqb59mcsspoigapb6us8qnka8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sciaracastro.levelup",
+            "certificate_hash": "cb58ce28816d049d811f0562394d50b575901707"
+          }
+        },
+        {
           "client_id": "762379165325-lra6abtd7vpe6qai8ro08q7a49rd5pbj.apps.googleusercontent.com",
           "client_type": 3
         },
@@ -81,8 +89,13 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "762379165325-lra6abtd7vpe6qai8ro08q7a49rd5pbj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         },
         "ads_service": {
           "status": 2
