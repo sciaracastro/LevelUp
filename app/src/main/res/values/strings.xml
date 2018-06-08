@@ -7,9 +7,9 @@
     <string name="prompt_name">Nome</string>
     <string name="prompt_last_name">Cognome</string>
     <string name="prompt_birth">Data di nascita</string>
-    <string name="prompt_password">Password (optional)</string>
-    <string name="action_sign_in">Accedi</string>
-    <string name="action_sign_in_short">Effettua l'accesso</string>
+    <string name="prompt_password">Password (opzionale)</string>
+    <string name="action_log_in">Accedi</string>
+    <string name="action_log_in_short">Effettua l\'accesso</string>
     <string name="error_invalid_email">Questo indirizzo email non è valido</string>
     <string name="error_invalid_password">Questa password è troppo breve</string>
     <string name="error_incorrect_password">Questa password non è corretta</string>
@@ -17,5 +17,6 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
+    <string name="register_link">Non hai ancora un account? Registrati qui</string>
     <string name="title_activity_register">Registrati</string>
 </resources>

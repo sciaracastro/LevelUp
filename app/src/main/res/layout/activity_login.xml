@@ -61,7 +61,7 @@
                     android:layout_height="wrap_content"
                     android:hint="@string/prompt_password"
                     android:imeActionId="6"
-                    android:imeActionLabel="@string/action_sign_in_short"
+                    android:imeActionLabel="@string/action_log_in_short"
                     android:imeOptions="actionUnspecified"
                     android:inputType="textPassword"
                     android:maxLines="1"
@@ -70,12 +70,21 @@
             </android.support.design.widget.TextInputLayout>
 
             <Button
-                android:id="@+id/email_sign_in_button"
+                android:id="@+id/log_in_button"
                 style="?android:textAppearanceSmall"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:text="@string/action_sign_in"
+                android:text="@string/action_log_in"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/register_link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/register_link"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimaryDark"
                 android:textStyle="bold" />
 
         </LinearLayout>
